@@ -48,8 +48,8 @@ k   'abc' * 2                   str                         'abcabc'            
 l   '1'*2 + '2' * 3             str                         11222                               11222
 m   1 * 2 + '3' * 2             none                        erorr                               error
 n   'A' ** 2                    none                        error                               error
-o   'bc' % 2
-p   'bc' / 2
+o   'bc' % 2                    none                        unnavailable                        unnavailable
+p   'bc' / 2                    none                        copyright/unavailable               unnavailable
 
 Now go to the IDE
 Use the interpreter to evaluate the expressions, write down results in the "Interpreter Result" column.
